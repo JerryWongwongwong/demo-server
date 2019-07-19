@@ -1,25 +1,32 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
+# maven #
+target
+logs
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
+# eclipse #
 .settings
-.springBeans
-.sts4-cache
+.project
+.classpath
+.log
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# windows #
+Thumbs.db
+
+# Mac #
+.DS_Store
+
+# Package Files #
+*.war
+*.ear
+
+# idea #
 *.iml
-*.ipr
+.idea/
+overlays
+bin
+build/
+out/
 
-### NetBeans ###
-/nbproject/private/
-/build/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+#gradle
+.gradle/*
+.idea/workspace.xml
+log/
