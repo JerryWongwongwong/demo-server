@@ -9,7 +9,7 @@ import java.math.BigDecimal;
  * @Author yajun
  * @Date 2019/6/13  22:07
  */
-public class T implements Runnable {
+public class Test8 implements Runnable {
 
     private int count = 10;
 
@@ -21,7 +21,7 @@ public class T implements Runnable {
 
 
 //    public static void main(String[] args) {
-//        T t = new T();
+//        Test8 t = new Test8();
 //        for (int i = 0; i< 5; i++){
 //            new Thread(t, "THREAD" + i).start();
 //        }

@@ -33,11 +33,11 @@ public class UserService {
      * @return
      */
     public Boolean savePerson(Integer age, String name, String address) {
-        Person person = new Person();
-        person.setAge(age);
-        person.setName(name);
-        person.setAddress(address);
-        userMapper.savePerson(person);
+//        Person person = new Person();
+//        person.setAge(age);
+//        person.setName(name);
+//        person.setAddress(address);
+//        userMapper.savePerson(person);
         return true;
     }
 
@@ -53,12 +53,12 @@ public class UserService {
         if (null == id) {
             return false;
         }
-        Person person = new Person();
-        person.setId(id);
-        person.setAge(age);
-        person.setName(name);
-        person.setAddress(address);
-        userMapper.updatePersonInfo(person);
+//        Person person = new Person();
+//        person.setId(id);
+//        person.setAge(age);
+//        person.setName(name);
+//        person.setAddress(address);
+//        userMapper.updatePersonInfo(person);
         return true;
     }
 

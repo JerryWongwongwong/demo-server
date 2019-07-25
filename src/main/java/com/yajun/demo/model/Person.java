@@ -1,28 +1,19 @@
 package com.yajun.demo.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
  * @Author yajun
  * @Date 2018/12/1  15:18
  */
-
+@AllArgsConstructor
 @Data
 public class Person {
 
-    private Integer id;
-    private String name;
-    private Integer age;
-    private String address;
+    private Long uid;
+    private String otterGameId;
+    private Integer initNum = 0;
 
 
-    @Override
-    public String toString() {
-        return
-                "id=" + id +
-                        ", name='" + name + '\'' +
-                        ", age=" + age + '\'' +
-                        ", addres=" + address
-                ;
-    }
 }

@@ -6,7 +6,7 @@ import java.util.Random;
  * @Author yajun
  * @Date 2019/3/5  16:42
  */
-public class aa {
+public class Test7 {
 
 
 

@@ -26,12 +26,12 @@ class A{
     final String bb;
 
     public A(){
-        bb = "aa";
+        bb = "Test7";
     }
 
     public A(String a){
         this();
-        //bb = "aa";
+        //bb = "Test7";
     }
 
     public StringBuffer getAa(){

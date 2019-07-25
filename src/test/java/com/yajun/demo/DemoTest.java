@@ -1,6 +1,7 @@
 package com.yajun.demo;
 
 import com.yajun.demo.mapper.UserMapper;
+import com.yajun.demo.service.IDCardService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +20,9 @@ public class DemoTest {
     @Autowired
     private UserMapper userMapper;
 
+    @Autowired
+    private IDCardService idCardService;
+
 
     @Test
     public void testSelect() {
@@ -28,4 +32,22 @@ public class DemoTest {
         System.out.println();
 
     }
+
+
+    @Test
+    public void testIDCard() {
+
+        String idCard = "412726199710031276";
+
+        idCardService.checkIDNo(idCard);
+
+
+
+    }
+
+
+
+
+
+
 }
